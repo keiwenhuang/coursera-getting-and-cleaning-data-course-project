@@ -79,6 +79,11 @@ df = df[,selectCol]
 
 #####
 # rename column to be readable
+names(df) = gsub('-mean', 'Mean', names(df))
+names(df) = gsub('-std', 'Std', names(df))
+names(df) <- gsub('[-()]', '', names(df))
+
+
 names(df) = gsub('^t', 'time', names(df))
 names(df) = gsub('^f', 'frequency', names(df))
 names(df) = gsub('Acc', 'Accelerometer', names(df))

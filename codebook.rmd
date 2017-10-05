@@ -1,0 +1,57 @@
+# Codebook
+This codebook summerize tidydata.txt
+
+# Variables      
+## Identifiers                           
+ [1] "subjectID"                                   "activityID"           
+* Each row identifies the subject who performed the activity. Its range is from 1 to 30. 
+*  subjectID         activityID
+         1            WALKING
+         2   WALKING_UPSTAIRS
+         3 WALKING_DOWNSTAIRS
+         4            SITTING
+         5           STANDING
+         6             LAYING
+
+## Measuments                      
+ [3] "timeBodyAccelerometerMeanX"                  "timeBodyAccelerometerMeanY"                 
+ [5] "timeBodyAccelerometerMeanZ"                  "timeBodyAccelerometerStdX"                  
+ [7] "timeBodyAccelerometerStdY"                   "timeBodyAccelerometerStdZ"                  
+ [9] "timeGravityAccelerometerMeanX"               "timeGravityAccelerometerMeanY"              
+[11] "timeGravityAccelerometerMeanZ"               "timeGravityAccelerometerStdX"               
+[13] "timeGravityAccelerometerStdY"                "timeGravityAccelerometerStdZ"               
+[15] "timeBodyAccelerometerJerkMeanX"              "timeBodyAccelerometerJerkMeanY"             
+[17] "timeBodyAccelerometerJerkMeanZ"              "timeBodyAccelerometerJerkStdX"              
+[19] "timeBodyAccelerometerJerkStdY"               "timeBodyAccelerometerJerkStdZ"              
+[21] "timeBodyGyroscopeMeanX"                      "timeBodyGyroscopeMeanY"                     
+[23] "timeBodyGyroscopeMeanZ"                      "timeBodyGyroscopeStdX"                      
+[25] "timeBodyGyroscopeStdY"                       "timeBodyGyroscopeStdZ"                      
+[27] "timeBodyGyroscopeJerkMeanX"                  "timeBodyGyroscopeJerkMeanY"                 
+[29] "timeBodyGyroscopeJerkMeanZ"                  "timeBodyGyroscopeJerkStdX"                  
+[31] "timeBodyGyroscopeJerkStdY"                   "timeBodyGyroscopeJerkStdZ"                  
+[33] "timeBodyAccelerometerMagnitudeMean"          "timeBodyAccelerometerMagnitudeStd"          
+[35] "timeGravityAccelerometerMagnitudeMean"       "timeGravityAccelerometerMagnitudeStd"       
+[37] "timeBodyAccelerometerJerkMagnitudeMean"      "timeBodyAccelerometerJerkMagnitudeStd"      
+[39] "timeBodyGyroscopeMagnitudeMean"              "timeBodyGyroscopeMagnitudeStd"              
+[41] "timeBodyGyroscopeJerkMagnitudeMean"          "timeBodyGyroscopeJerkMagnitudeStd"          
+[43] "frequencyBodyAccelerometerMeanX"             "frequencyBodyAccelerometerMeanY"            
+[45] "frequencyBodyAccelerometerMeanZ"             "frequencyBodyAccelerometerStdX"             
+[47] "frequencyBodyAccelerometerStdY"              "frequencyBodyAccelerometerStdZ"             
+[49] "frequencyBodyAccelerometerJerkMeanX"         "frequencyBodyAccelerometerJerkMeanY"        
+[51] "frequencyBodyAccelerometerJerkMeanZ"         "frequencyBodyAccelerometerJerkStdX"         
+[53] "frequencyBodyAccelerometerJerkStdY"          "frequencyBodyAccelerometerJerkStdZ"         
+[55] "frequencyBodyGyroscopeMeanX"                 "frequencyBodyGyroscopeMeanY"                
+[57] "frequencyBodyGyroscopeMeanZ"                 "frequencyBodyGyroscopeStdX"                 
+[59] "frequencyBodyGyroscopeStdY"                  "frequencyBodyGyroscopeStdZ"                 
+[61] "frequencyBodyAccelerometerMagnitudeMean"     "frequencyBodyAccelerometerMagnitudeStd"     
+[63] "frequencyBodyAccelerometerJerkMagnitudeMean" "frequencyBodyAccelerometerJerkMagnitudeStd" 
+[65] "frequencyBodyGyroscopeMagnitudeMean"         "frequencyBodyGyroscopeMagnitudeStd"         
+[67] "frequencyBodyGyroscopeJerkMagnitudeMean"     "frequencyBodyGyroscopeJerkMagnitudeStd"  
+
+# Transformation
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names.
+
+
